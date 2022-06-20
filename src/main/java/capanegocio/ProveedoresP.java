@@ -10,5 +10,37 @@ package capanegocio;
  * @author lopez
  */
 public class ProveedoresP {
+    public SistemaGestion sistemagestion;
+    public Proveedores(){
+        sistemagestion=new SistemaGestion();
+    }
+    private String tipo;
+    private String nombre;
+    private String comision;
+
+    public String getTipo() {
+        return tipo;
+    }
+
+    public void setTipo(String tipo) {
+        this.tipo = tipo;
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public String getComision() {
+        return comision;
+    }
+
+    public void setComision(String comision) {
+        this.comision = comision;
+    }
+    
     
 }
